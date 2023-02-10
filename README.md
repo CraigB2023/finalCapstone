@@ -10,9 +10,9 @@ It utilises code learnt to-date like resposive css, session storage arrays, call
 
 ## Table of Contents
 
-[Installing](#installing)
-[Usage](#usage)
-[Authors](#authors)
+[Installing](#installing)<br>
+[Usage](#usage)<br>
+[Authors](#authors)<br>
 [Acknowledgments](#acknowledgments)
 
 
@@ -28,8 +28,8 @@ It utilises code learnt to-date like resposive css, session storage arrays, call
 * To use the 'shopping cart / save for later' feature click on the 'save' icon on any image.
 * The image will be added to the cart and the cart icon in the top menu will increment by one.
 * Click the cart icon to access the cart. Thumbnails provide access to the view images and the cart can be update by using the delete buttons.
-![Adding an image element](https://github.com/[username]/[reponame]/blob/master/readme1.jpg?raw=true)
-![Viewing the cart](https://github.com/CraigB2023/finalCapstone/blob/master/readme2.jpg?raw=true)
+![Adding an image element](https://github.com/CraigB2023/finalCapstone/tree/master/images/readme1.jpg?raw=true)
+![Viewing the cart](https://github.com/CraigB2023/finalCapstone/tree/master/images/readme2.jpg?raw=true)
 
 
 ## Authors
