@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="../BonsaiThrive/styles/styles.css" rel="stylesheet" type="text/css"/>
+    <style>
+    </style>
+</head>
+<body onload="myLoad()">
+    <header>
+        <!--Navigation and logo are only things inside the header
+             Header controls the nav styling eg fixed to top-->
+        <img id="1" class="logo" alt="Bonsai Thrive Logo" src="images/bonsailogo1.png"/>
+        <!--menu nav-->
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/pruning.html">Pruning</a></li>   
+                <li><a href="pages/wiring.html">Wiring</a></li>
+                <li><a href="pages/potting.html">Potting</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-btn">
+            <a href="pages/saveforlater.html"><i id="cart" class="fas fa-save"></i></a>
+            <span id="quantity" class ="cart-quantity">0</span>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <img id="2" src="images/bonsai-display.jpg" alt="Display of 7 Bonsai header image" style="width:100%;">
+            <div class="like">
+                <img src="../BonsaiThrive/images/heart.png"/>
+            </div>
+            <div class="save">
+                <img src="../BonsaiThrive/images/icons8-save-50_white.png"/>
+            </div>
+            <div class="text-block">
+                <h4>BONSAI THRIVE</h4>
+                <p>Help your bonsai survive and THRIVE!</p>
+            </div>
+        </div>
+        <p>We're a family-run business, serving the Bonsai community with quality trees, unsurpassed customer service and expert Bonsai care and styling advice.</p>
+        <h2 id="2">Buying a bonsai tree</h2>
+        <p>Most Bonsai enthusiasts started their hobby with a ready-made Bonsai tree, bought in a Bonsai shop or received as a present. Although you will not experience 
+            the fun of creating your own tree, it is a great way to get started and get a feeling for the basic care for 
+            Bonsai trees. Once you get enthusiastic about Bonsai you can eventually learn to create them yourself. We recommend starting with one of our most popular species.</p>
+        <h3>Most popular species</h3>
+        <div id="containerGrid">
+            <figure>
+                <div class="container">
+                    <img id="4" alt="Ficus bonsai image" class="imageGrid" src="images/ficus-bonsai.jpg"/>
+                    <div class="like">
+                        <img src="../BonsaiThrive/images/heart.png"/>
+                    </div>
+                    <div class="save">
+                        <img src="../BonsaiThrive/images/icons8-save-50_white.png"/>
+                    </div>
+                </div>
+                <figcaption>
+                    <span>Ficus</span>
+                    <span>Icus retuse or ginseng</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="container">
+                    <img id="5" alt="Junpier bonsai image" class="imageGrid" src="images/juniper-bonsai.jpg"/>
+                    <div class="like">
+                        <img src="../BonsaiThrive/images/heart.png"/>
+                    </div>
+                    <div class="save">
+                        <img src="../BonsaiThrive/images/icons8-save-50_white.png"/>
+                    </div>
+                </div>
+                <figcaption>
+                    <span>Juniper</span>
+                    <span>Juniperus</span>
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="container">
+                    <img id="6" alt="Japanese maple bonsai image" class="imageGrid" src="images/maple-bonsai.jpg"/>
+                    <div class="like">
+                        <img src="../BonsaiThrive/images/heart.png"/>
+                    </div>
+                    <div class="save">
+                        <img src="../BonsaiThrive/images/icons8-save-50_white.png"/>
+                    </div>
+                </div>
+                <figcaption>
+                    <span>Japanese Maple</span>
+                    <span>Iacer palmatum</span>
+                </figcaption>
+            </figure>
+        </div>
+        <h3>Selecting your tree</h3>
+        <p>The key thing to keep in mind when buying a Bonsai tree is where you want to place your tree. 
+        When you intend to keep it inside your living room, select an indoor Bonsai (like a Ficus, Jade 
+        or Carmona). If you intend to place your tree outdoor your options are far greater; popular and 
+        safe choices are Junipers, Maples and Elms.</p>
+        <p>Do not start with buying a species of tree that is hard to care for; it is recommended for beginners 
+        to start with an easy-to-care for tree.</p>
+        <div style="overflow-x:auto;">
+            <table>
+                <caption>Popular Bonsai - Care Instructions</caption>
+                <tr>
+                    <th></th>
+                    <th class="tableHeader">Ficus</th>
+                    <th class="tableHeader">Juniper</th>
+                    <th class="tableHeader">Japanese Maple</th>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Type</td>
+                    <td>Broadleaf evergreen</td>
+                    <td>Pines and Conifers</td>
+                    <td>Deciduous tree species</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Placement</td>
+                    <td>Indoors</td>
+                    <td>Outdoor lots of sunlight</td>
+                    <td>Indoors & Outdoors; sunny airy location</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Watering</td>
+                    <td>Occasionally</td>
+                    <td>Keep soil slightly dry</td>
+                    <td>Daily during growing season</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Fertilizing</td>
+                    <td>Every two weeks in summer, every 4 weeks in winter</td>
+                    <td>Liquid fertilizer every week</td>
+                    <td>Organic slow release solid pellets</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Pruning</td>
+                    <td>Prune back to 2 leaves after 6-8 leaves grown</td>
+                    <td>Cut long shoots at base with sharp scissors</td>
+                    <td>Strong branches summer or autumn. Prune smaller back to 2 leaves all year round</td>
+                </tr> 
+                <tr>
+                    <td class="tableHeader">Repotting</td>
+                    <td>Spring every 2nd year</td>
+                    <td>Spring every 2nd year</td>
+                    <td>Spring every 2nd year</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Soil</td>
+                    <td>Basic bonsai soil mix</td>
+                    <td>Basic mix slightly more draining</td>
+                    <td>Well drained soil mix</td>
+                </tr>
+                <tr>
+                    <td class="tableHeader">Root trim</td>
+                    <td>Tolerates root pruning very well</td>
+                    <td>Do not prune roots aggressively</td>
+                    <td>Strong roots that grow quickly; can trim moderately</td>
+                </tr>  
+            </table>
+        </div>
+    </main>
+    <footer>
+        <p>Author: Craig Bain</p>
+        <p>Note: For the purpose of this task i have copied content from a number of bonsai websites.</p>
+        <p>Bonsai content sources:</p>
+            <ul>
+                <li><a href="https://www.rhs.org.uk/plants/types/trees/bonsai" target="_blank">RHS</a></li>
+                <li><a href="https://www.bonsaiempire.com/" target="_blank">Bonsai Empire</a></li>
+                <li><a href="https://www.bonsai.co.uk/" target="_blank">Greenwood Bonsai Studio</a></li>
+                <li><a href="https://www.allthingsbonsai.co.uk/" target="_blank">All Things Bonsai</a></li>
+            </ul>
+    </footer>
+    <script type="text/javascript" src="../BonsaiThrive/js/bonsaithrive.js"></script>
+</body>
+</html>

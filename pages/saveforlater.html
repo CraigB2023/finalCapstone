@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save For Later</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css"/>
+    <style>
+    </style>
+</head>
+<body onload="myLoad()">
+    <header>
+        <!--Navigation and logo are the only things inside header
+             as header controls the nav styling eg fixed to top-->
+        <img class="logo" alt="Bonsai Thrive logo" src="../images/bonsailogo1.png"/>
+        <!--menu nav-->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/pruning.html">Pruning</a></li>
+                <li><a href="../pages/wiring.html">Wiring</a></li>
+                <li><a href="../pages/potting.html">Potting</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-btn">
+            <a href="../pages/saveforlater.html"><i id="cart" class="fas fa-save"></i></a>
+            <span id="quantity" class ="cart-quantity">0</span>
+        </div>
+    </header>
+    <main>
+        <!--
+        <div class="container">
+            <img src="../images/wiringLS.jpg" alt="Wiring a bonsai" style="width:100%;">
+            <div class="text-block">
+                <p>Wiring a Juniper</p>
+            </div>
+        </div>
+    -->
+       
+    <h2>Items you have saved for later</h2>
+    <!--This is where the table of books will load-->
+    <div id="savedTable"></div>
+        
+    </main>
+    <footer>
+        <p>Author: Craig Bain</p>
+        <p>Note: For the purpose of this task i have copied content from a number of bonsai websites.</p>
+        <p>Bonsai content sources:</p>
+            <ul>
+                <li><a href="https://www.rhs.org.uk/plants/types/trees/bonsai" target="_blank">RHS</a></li>
+                <li><a href="https://www.bonsaiempire.com/" target="_blank">Bonsai Empire</a></li>
+                <li><a href="https://www.bonsai.co.uk/" target="_blank">Greenwood Bonsai Studio</a></li>
+                <li><a href="https://www.allthingsbonsai.co.uk/" target="_blank">All Things Bonsai</a></li>
+            </ul>
+    </footer>
+    <script type="text/javascript" src="../js/bonsaithrive.js"></script>
+</body>
+</html>

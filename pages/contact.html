@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css"/>
+    <style>
+    </style>
+</head>
+<body onload="myLoad()">
+    <header>
+        <!--Navigation and logo are the only things inside header
+             as header controls the nav styling eg fixed to top-->
+        <img class="logo" alt="Bonsai Thrive logo" src="../images/bonsailogo1.png"/>
+        <!--menu nav-->
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/pruning.html">Pruning</a></li>
+                <li><a href="../pages/wiring.html">Wiring</a></li>
+                <li><a href="../pages/potting.html">Potting</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-btn">
+            <a href="../pages/saveforlater.html"><i id="cart" class="fas fa-save"></i></a>
+            <span id="quantity" class ="cart-quantity">0</span>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <img src="../images/bonsai-display3.jpg" alt="Display of 4 bonsai" style="width:100%;"/>
+            <div class="like">
+                <img src="../images/heart.png"/>
+            </div>
+            <div class="save">
+                <img src="../images/icons8-save-50_white.png"/>
+            </div>
+            <div class="text-block">
+                <p>Carmona, Ficus, Jade Tree & Chinese Elm</p>
+            </div>
+        </div>
+        <h1>Contact Us</h1>
+        <div id="divEmail1">
+            <form>
+                <p>Send us an email if you have any specific questions. We try to answer all questions within 48 hours.</p>
+                <p>
+                    <label>Name:</label>
+                    <input id="fullNameEmail" type="text" placeholder="Name" required/>
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input id="emailQuery" type="email" placeholder="Email" required/>
+                </p>
+                <p>
+                    <label>Please enter your query below:</label><br>
+                    <textarea id="commentQuery" rows="5" cols="50" maxlength="500"></textarea>
+                </p>
+                <p>
+                    <button id="sendEmail" type="button" class="button">Send email</button>
+                </p>
+            </form>
+        </div>
+        <div id="divEmail2"></div>
+            
+        <p>Alternatively please <a href="tel:+44208451111">phone</a> our London office between the hours of 9am to 5pm BST, we look forward to your call.</p>
+        <h2 id="newsletterH2">Join our newsletter</h2>
+        <!--Quote tutorial - https://css-tricks.com/quoting-in-html-quotations-citations-and-blockquotes/-->
+        <div id="divNewsletter1">
+            <form>
+                <p>Interested in learning more about Bonsai techniques and tips? Please subscribe to our monthly newsletter below.</p>
+                <p>
+                    <label>Name:</label>
+                    <input id="fullName" type="text" placeholder="Name" required/>
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input id="email" type="email" placeholder="Email" required/>
+                </p>
+                <p>
+                    <label>What are you most interested in?</label>
+                </p>
+                <p>
+                    <input type="radio" name="interest"/><label>Pruning</label><br>
+                    <input type="radio" name="interest"/><label>Wiring</label><br>
+                    <input type="radio" name="interest"/><label>Potting</label><br>
+                </p>
+                <p>
+                    <button id="subscribe" type="button" class="button">Subscribe</button>
+                </p>
+            </form>
+        </div>
+        <div id="divNewsletter2"></div>
+        <h2 id="commentH2">Leave a comment</h2>
+            <form>
+                <p>
+                    <label>Name:</label>
+                    <input id="nameComment" type="text" placeholder="Name" required/>
+                </p>
+                <p>
+                    <label>Comment:</label><br>
+                    <textarea id="comment" rows="5" cols="50" maxlength="500" required></textarea>
+                </p>
+                <p>
+                    <button id="submitComment" type="button" class="button">Submit Comment</button>
+                </p>
+            </form>
+        <div id="commentsHolder">
+            <figure class="quote">
+                <blockquote>
+                    I struggled with my ficus for a couple of years until I followed the steps in the April 2021 newsletter regarding root pruning and potting and
+                    by summer it was back to full health with plenty of foliage growth. Thank you Bonsai Thrive!
+                </blockquote>
+                <figcaption>
+                    &mdash; Jeremy Keith
+                </figcaption>
+            </figure>
+        </div>
+    </main>
+    <footer>
+        <p>Author: Craig Bain</p>
+        <p>Note: For the purpose of this task i have copied content from a number of bonsai websites.</p>
+        <p>Bonsai content sources:</p>
+            <ul>
+                <li><a href="https://www.rhs.org.uk/plants/types/trees/bonsai" target="_blank">RHS</a></li>
+                <li><a href="https://www.bonsaiempire.com/" target="_blank">Bonsai Empire</a></li>
+                <li><a href="https://www.bonsai.co.uk/" target="_blank">Greenwood Bonsai Studio</a></li>
+                <li><a href="https://www.allthingsbonsai.co.uk/" target="_blank">All Things Bonsai</a></li>
+            </ul>
+    </footer>
+    <script type="text/javascript" src="../js/bonsaithrive.js"></script>
+</body>
+</html>
